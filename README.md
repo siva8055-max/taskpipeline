@@ -5,3 +5,4 @@ This is Sample Pipe line project.
 Blue
 Green
 blue
+red
