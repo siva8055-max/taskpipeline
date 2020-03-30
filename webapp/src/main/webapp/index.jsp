@@ -7,7 +7,7 @@
   .center {
   text-align: center;
 
-  border: 2px solid yellow;
+  border: 2px solid blue;
 
 }
     body {background-color: white;}
