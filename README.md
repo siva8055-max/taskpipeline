@@ -6,3 +6,4 @@ Blue
 Green
 blue
 red
+Jenkins pipeline
