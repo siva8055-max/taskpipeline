@@ -6,5 +6,5 @@ Blue
 Green
 blue
 red
-Jenkins pipeline
-Jenkins pipeline test
+
+Jenkins pipeline sonarqube
