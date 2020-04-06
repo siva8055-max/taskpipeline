@@ -7,3 +7,4 @@ Green
 blue
 red
 Jenkins pipeline
+Jenkins pipeline test
