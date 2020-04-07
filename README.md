@@ -2,10 +2,5 @@
 
 Welcome to GSPANN Devops team.
 This is Sample Pipe line project.
-Blue
-Green
-blue
-red
-
 Jenkins pipeline sonarqube  test
-123
+
