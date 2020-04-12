@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-LABEL maintainer="sureddy.26@gmail.com"
+LABEL maintainer="sureddy"
 
 # Make sure the package repository is up to date.
 RUN apt-get update && \
