@@ -32,4 +32,4 @@ RUN chown -R jenkins:jenkins /home/jenkins/.m2/ && \
 # Standard SSH port
 EXPOSE 4243
 
-CMD ["/usr/sbin/sshd","-P 4243:4243" ,"-D"]
+CMD ["/usr/sbin/sshd","-D"]
