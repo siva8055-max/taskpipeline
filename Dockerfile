@@ -7,9 +7,9 @@ RUN apt-get update && \
     apt-get -qy full-upgrade && \
     apt-get install -qy git && \
 # Install a basic SSH server
- #   apt-get install -qy openssh-server && \
-  #  sed -i 's|session    required     pam_loginuid.so|session    optional     pam_loginuid.so|g' /etc/pam.d/sshd && \
-  #  mkdir -p /var/run/sshd && \
+ apt-get install -qy openssh-server && \
+  sed -i 's|session    required     pam_loginuid.so|session    optional     pam_loginuid.so|g' /etc/pam.d/sshd && \
+  mkdir -p /var/run/sshd && \
 # Install JDK 8 (latest stable edition at 2019-04-01)
     apt-get install -qy openjdk-8-jdk && \
 # Install maven
@@ -27,7 +27,7 @@ RUN apt-get update && \
 #COPY .ssh/authorized_keys /home/jenkins/.ssh/authorized_keys
 
 RUN chown -R jenkins:jenkins /home/jenkins/.m2/ && \
-    #chown -R jenkins:jenkins /home/jenkins/.ssh/
+    chown -R jenkins:jenkins /home/jenkins/.ssh/
 
 # Standard SSH port
 EXPOSE 4243
