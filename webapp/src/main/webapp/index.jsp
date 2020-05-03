@@ -6,7 +6,7 @@
   <style>
   .center {
   text-align: center;
-  border: 10px solid black;
+  border: 10px solid green;
 }
     body {background-color: white;}
     h1 {color: Blue;}
@@ -23,4 +23,4 @@
 </div>
 </body>
 </html>
-
+<p2>&copy; 2020 Siva&Team.<p2>
