@@ -1,6 +1,6 @@
 # maven-project ##
 
-Welcome to Devops team.
+Welcome to ops team.
 This is Sample Pipe line project.
 Jenkins pipeline sonarqube  test
 Jenkins file
